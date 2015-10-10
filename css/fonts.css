@@ -1,0 +1,120 @@
+/*
+
+bullet-proof
+-------------------
+@font-face {
+  font-family: 'Avenir';
+  src: url('webfont.eot'); /* IE9 Compat Modes
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers
+       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS
+}
+
+*/
+
+/***
+ * AVENIR
+ *********/
+
+ @font-face {
+  font-family: 'Avenir';
+  src: url('../fonts/avenir/Avenir-Book.ttf');
+  src: url('../fonts/avenir/Avenir-Book.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../fonts/avenir/Avenir-Medium.ttf');
+  src: url('../fonts/avenir/Avenir-Medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../fonts/avenir/Avenir-Medium.ttf');
+  src: url('../fonts/avenir/Avenir-MediumOblique.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/***
+ * AVENIR NEXT
+ **************/
+
+ @font-face {
+  font-family: 'Avenir Next';
+  src: url('../fonts/avenir-next/AvenirNext-Medium.ttf');
+  src: url('../fonts/avenir-next/AvenirNext-Medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/***
+ * AVENIR NEXT CONDENSED
+ ************************/
+
+ @font-face {
+  font-family: 'Avenir Next';
+  src: url('../fonts/avenir-next-condensed/AvenirNextCondensed-Medium.ttf');
+  src: url('../fonts/avenir-next-condensed/AvenirNextCondensed-Medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/***
+ * GASPAR
+ *********/
+
+ @font-face {
+  font-family: 'Gaspar';
+  src: url('../fonts/gaspar/gaspar_regular.eot');
+  src: url('../fonts/gaspar/gaspar_regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/gaspar/gaspar_regular.woff2') format('woff2'),
+  url('../fonts/gaspar/gaspar_regular.woff') format('woff'),
+  url('../fonts/gaspar/gaspar_regular.ttf') format('truetype'),
+  url('../fonts/gaspar/gaspar_regular.svg#gasparregular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gaspar';
+    src: url('gaspar_regular_italic-webfont.eot');
+    src: url('gaspar_regular_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gaspar_regular_italic-webfont.woff2') format('woff2'),
+         url('gaspar_regular_italic-webfont.woff') format('woff'),
+         url('gaspar_regular_italic-webfont.ttf') format('truetype'),
+         url('gaspar_regular_italic-webfont.svg#gasparitalic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gaspar';
+  src: url('gaspar_bold-webfont.eot');
+  src: url('gaspar_bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('gaspar_bold-webfont.woff2') format('woff2'),
+  url('gaspar_bold-webfont.woff') format('woff'),
+  url('gaspar_bold-webfont.ttf') format('truetype'),
+  url('gaspar_bold-webfont.svg#gasparbold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gaspar';
+  src: url('gaspar_bold_italic-webfont.eot');
+  src: url('gaspar_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+  url('gaspar_bold_italic-webfont.woff2') format('woff2'),
+  url('gaspar_bold_italic-webfont.woff') format('woff'),
+  url('gaspar_bold_italic-webfont.ttf') format('truetype'),
+  url('gaspar_bold_italic-webfont.svg#gasparbold_italic') format('svg');
+  font-weight: 600;
+  font-style: italic;
+}
