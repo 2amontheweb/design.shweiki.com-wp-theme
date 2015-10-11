@@ -57,7 +57,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <!-- <a class="navbar-brand" href="/"><img src="<?#php bloginfo('stylesheet_directory'); ?>/img/logo.png" alt="Bootstrap to Wordpress"> -->
+              <a class="navbar-brand" href="/">
+                <img style="max-width:150px;width:100%;" src="<?php bloginfo('stylesheet_directory'); ?>/img/logo.png" alt="Bootstrap to Wordpress">
+              </a>
             </div><!-- navbar-header -->
 
             <?php
@@ -66,7 +68,7 @@
                 'theme_location' => 'header',
                 'container'       => 'nav',
                 'container_class' => 'navbar-collapse collapse',
-                'menu_class'        => 'nav navbar-nav navbar-right'
+                'menu_class'        => 'nav navbar-nav'
 
               ) );
             ?>
@@ -75,6 +77,3 @@
         </div><!-- navbar -->
       </div><!-- navbar-wrapper -->
     </header>
-    <h1 id="font-testing">Font Testing this Bia</h1>
-    <i class="glyphicon glyphicon-align-center"></i>
-    <i class="fa fa-map"></i>

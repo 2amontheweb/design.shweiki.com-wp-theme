@@ -49,5 +49,17 @@
   <script src="<?php bloginfo('template_directory') ?>/js/jquery-2.1.1.min.js"></script>
   <script src="<?php bloginfo('template_directory') ?>/js/bootstrap.min.js"></script>
 
+  <script>
+
+  /* TEMP FOR MESSING AROUND */
+    var resetHeight = function(selector) {
+      var winHeight = $(window).height() - 200;
+      $(selector).css('min-height', winHeight);
+    };
+    $(document).ready(function() { resetHeight('.page'); });
+    $(window).on('resize', function() { resetHeight('.page'); });
+
+  </script>
+
 </body>
 </html>
