@@ -17,26 +17,47 @@
     ================================================== -->
     <footer>
       <div class="container">
-        <div class="col-sm-3">
-          <!-- <p><a href="/"><img src="<?#php bloginfo('stylesheet_directory'); ?>/img/logo.png" alt="Bootstrap to WordPress"></a></p> -->
-        </div><!-- end col -->
-        <div class="col-sm-6">
+        <div class="row">
+          <div class="col-sm-4">
+            <h3>Contact Us</h3>
+            <img style="width:80%;" src="<?php bloginfo('stylesheet_directory'); ?>/img/gmap.png" alt="GMap">
 
-          <?php
-              wp_nav_menu( array(
-
-                'theme_location' => 'header',
-                'container'       => 'nav',
-                'menu_class'        => 'list-unstyled list-inline'
-
-              ) );
-            ?>
-
-        </div><!-- end col -->
-        <div class="col-sm-3">
-          <p class="pull-right"><?php echo bloginfo('name') ?> &copy; <?php echo date('Y') ?> <?php the_author_link(); ?></p>
-          <?php dynamic_sidebar( 'sidebar-2' ); ?>
-        </div><!-- end col -->
+          </div><!-- end col -->
+          <div class="col-sm-4">
+            <h3>Contact Us</h3>
+            <div class="row">
+              <div class="col-xs-3">
+                <a href="http://www.twitter.com">
+                  <img style="max-width:60px;width:90%;display:block;margin: 0 auto;" src="<?php bloginfo('stylesheet_directory'); ?>/img/social/twitter.png" alt="GMap">
+                </a>
+              </div>
+              <div class="col-xs-3">
+                <a href="http://www.twitter.com">
+                  <img style="max-width:60px;width:90%;display:block;margin: 0 auto;" src="<?php bloginfo('stylesheet_directory'); ?>/img/social/instagram.png" alt="GMap">
+                </a>
+              </div>
+              <div class="col-xs-3">
+                <a href="http://www.twitter.com">
+                  <img style="max-width:60px;width:90%;display:block;margin: 0 auto;" src="<?php bloginfo('stylesheet_directory'); ?>/img/social/facebook.png" alt="GMap">
+                </a>
+              </div>
+              <div class="col-xs-3">
+                <a href="http://www.twitter.com">
+                  <img style="max-width:60px;width:90%;display:block;margin: 0 auto;" src="<?php bloginfo('stylesheet_directory'); ?>/img/social/pinterest.png" alt="GMap">
+                </a>
+              </div>
+            </div>
+            <p>Stay in the loop on what's going on with <div>Shweiki Design &amp; Marketing</div></p>
+          </div><!-- end col -->
+          <div class="col-sm-4">
+            <h3>Get Our Updates</h3>
+            <div class="inputs clearfix">
+              <input type="text" style="width:70%;float:left;">
+              <input type="submit" style="width:30%;">
+            </div>
+            <p>Sign up for our newsletter to find out about new updates.</p>
+          </div><!-- end col -->
+        </div>
       </div><!-- container -->
     </footer>
   </div><!-- #page -->
