@@ -4,7 +4,7 @@
  */
 
 get_header(); ?>
-
+<h1>page-main.php</h1>
   <!-- MAIN CONTENT
 ================================================== -->
 <div class="container page">
