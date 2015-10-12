@@ -18,13 +18,13 @@
 ```
   page.php
   template-parts/content-page.php
-  sidebar.php
 ```
 
 
 #### Portfolio
 ```
   page-portfolio.php
+  template-parts/content-portfolio.php
 ```
 
 
@@ -32,7 +32,6 @@
 ```
   single.php
   template-parts/content-gallery.php
-  sidebar.php
 ```
 
 
@@ -57,7 +56,6 @@
 ```
   page.php
   template-parts/content-page.php
-  sidebar.php
 ```
 
 
