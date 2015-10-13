@@ -1065,8 +1065,8 @@ div[class^="col-"], div[class*=" col-"] {
   padding: 5px 25px;
 }
 
-.site-footer .contact-us,
-.site-footer .connect-with-us {
+.site-footer .footer-left,
+.site-footer .footer-middle {
   border-right: 1px solid blue;
 }
 

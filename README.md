@@ -1,5 +1,11 @@
 # Shweiki Design Custom WordPress Theme
 
+## Plugins Used:
+  • Advance Custom Fields
+  • Custom Post Types UI
+  • Newsletter (Used in WP, but not in theme)
+  • Master Slider (Used in WP, but not in theme)
+
 ### Pages and their files:
 
 #### EVERY PAGE

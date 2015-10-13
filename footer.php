@@ -18,11 +18,11 @@
     <footer class="site-footer">
       <div class="container">
         <div class="row">
-          <div class="col-sm-4 section contact-us">
+          <div class="col-sm-4 section footer-left">
             <h3>Contact Us</h3>
             <img style="width:80%;" src="<?php bloginfo('stylesheet_directory'); ?>/img/gmap.png" alt="GMap">
           </div><!-- .contact-us -->
-          <div class="col-sm-4 section connect-with-us">
+          <div class="col-sm-4 section footer-middle">
             <h3>Connect With Us</h3>
             <div class="row">
               <div class="col-xs-3">
@@ -48,13 +48,8 @@
             </div>
             <p>Stay in the loop on what's going on with <div>Shweiki Design &amp; Marketing</div></p>
           </div><!-- .connect-with-us -->
-          <div class="col-sm-4 section get-our-updates">
-            <h3>Get Our Updates</h3>
-            <div class="inputs clearfix">
-              <input type="text" style="width:70%;float:left;">
-              <input type="submit" style="width:30%;">
-            </div>
-            <p>Sign up for our newsletter to find out about new updates.</p>
+          <div class="col-sm-4 section footer-right">
+            <?php dynamic_sidebar( 'footer-right' ); ?>
           </div><!-- .get-our-updates -->
         </div>
       </div><!-- container -->
