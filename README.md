@@ -2,8 +2,9 @@
 
 ### Colors:
   Dark Blue: #00263a
-  Black:
-  White:
+  Black: #000
+  White: #fff
+  Grey: #e6e7e9
 
 ## Plugins Used:
   • Advance Custom Fields

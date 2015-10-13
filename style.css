@@ -975,10 +975,7 @@ div[class^="col-"], div[class*=" col-"] {
 }
 
 
-.site-header .navbar {
-  min-height: 180px;
-  padding-top: 75px;
-}
+
 
 .site-header .navbar-nav.nav.row {
   width: 100%;
@@ -1019,6 +1016,10 @@ div[class^="col-"], div[class*=" col-"] {
 }
 
 @media (min-width: 768px) {
+  .site-header .navbar {
+    min-height: 180px;
+    padding-top: 75px;
+  }
 
   .site-header .navbar-brand {
     position: absolute;
@@ -1212,7 +1213,7 @@ div[class^="col-"], div[class*=" col-"] {
 }
 .page-portfolio .resource .entry-title {
   margin-top: 10px;
-  padding-top: 15px;
+  padding-top: 10px;
   border-top: 1px solid #00263a;
   font-family: "Gaspar";
   font-weight: bold;
@@ -1231,3 +1232,36 @@ div[class^="col-"], div[class*=" col-"] {
 .page-portfolio .resource img {
  width: 100%;
 }
+
+/***
+ * content-gallery
+ ***/
+.content-gallery .content {
+  padding-right: 30px;
+}
+
+.content-gallery h2,
+.content-gallery p {
+  font-family: "Avenir";
+}
+.content-gallery .entry-content h2 {
+  font-size: 0.9em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.25px;
+  border-bottom: 1px solid #e6e7e9;
+  padding-bottom: 2px;
+  margin-bottom: 8px;
+}
+.content-gallery .entry-content p {
+  font-family: "Gaspar";
+  font-weight: bold;
+  font-size: 0.85em;
+  padding-bottom: 30px;
+}
+
+
+
+
+
+
