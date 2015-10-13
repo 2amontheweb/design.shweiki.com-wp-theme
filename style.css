@@ -933,15 +933,17 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 a {
-  transition: all 0.3s ease;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
   cursor: pointer;
-  &:visited,
-  &:focus {
-    text-decoration:none;
-  }
-  &:hover {
-    text-decoration:underline;
-  }
+}
+a:visited,
+a:focus {
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:underline;
 }
 
 a,
@@ -956,9 +958,7 @@ div[class^="col-"], div[class*=" col-"] {
 
 .container {
   margin: 0 auto;
-  @include mobile {
-    @include rem-fallback(padding, 0, 1)
-  }
+  max-width: 969px;
 }
 
 /****
@@ -1047,10 +1047,6 @@ div[class^="col-"], div[class*=" col-"] {
 
 .site-footer {
   padding: 60px 0 60px;
-}
-.site-footer .container {
-  max-width: 969px;
-  margin: 0 auto;
 }
 .site-footer h3 {
   font-family: "Gaspar";

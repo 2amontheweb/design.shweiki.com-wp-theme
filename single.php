@@ -8,28 +8,30 @@
  */
 
 get_header(); ?>
-<h1>single.php</h1>
-  <div id="primary" class="content-area">
-    <main id="main" class="site-main" role="main">
 
-    <?php while ( have_posts() ) : the_post(); ?>
+  <div id="primary" class="page">
+    <div class="container">
+      <main id="main" class="site-main" role="main">
+
+        <?php while ( have_posts() ) : the_post(); ?>
 
 
-      <?php $post_format = get_post_format() ? get_post_format() : 'single'; ?>
-      <?php get_template_part( 'template-parts/content', $post_format ); ?>
+          <?php $post_format = get_post_format() ? get_post_format() : 'single'; ?>
+          <?php get_template_part( 'template-parts/content', $post_format ); ?>
 
-      <?php the_post_navigation(); ?>
+          <?php the_post_navigation(); ?>
 
-      <?php
-        // If comments are open or we have at least one comment, load up the comment template.
-        if ( comments_open() || get_comments_number() ) :
-          comments_template();
-        endif;
-      ?>
+          <?php
+            // If comments are open or we have at least one comment, load up the comment template.
+            if ( comments_open() || get_comments_number() ) :
+              comments_template();
+            endif;
+          ?>
 
-    <?php endwhile; // End of the loop. ?>
+        <?php endwhile; // End of the loop. ?>
 
-    </main><!-- #main -->
+      </main><!-- #main -->
+    </div>
   </div><!-- #primary -->
 
 <?php get_footer(); ?>

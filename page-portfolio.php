@@ -4,13 +4,13 @@
  */
 
 get_header(); ?>
-<h1>page-portfolio.php</h1>
+
 <!-- MAIN CONTENT
 ================================================== -->
 <div class="container">
   <div class="row" id="primary">
 
-    <div id="content" class="col-sm-12">
+    <main id="content" class="col-sm-12">
 
       <section class="main-content">
 
@@ -52,7 +52,7 @@ get_header(); ?>
         </div>
       </section>
 
-    </div><!-- content -->
+    </main><!-- content -->
 
   </div><!-- primary -->
 </div><!-- container -->
