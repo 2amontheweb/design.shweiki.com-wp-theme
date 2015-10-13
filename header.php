@@ -44,36 +44,38 @@
     <!-- HEADER
     ============ -->
     <header class="site-header" role="banner">
+      <div class="container">
 
-      <!-- NAVBAR
-      ============ -->
-      <div class="navbar-wrapper">
-        <div class="navbar" role="navigation">
-          <div class="container-fluid">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle Navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div><!-- navbar-header -->
+        <!-- NAVBAR
+        ============ -->
+        <div class="navbar-wrapper">
+          <div class="navbar" role="navigation">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle Navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div><!-- navbar-header -->
 
-            <?php
-              wp_nav_menu( array(
+              <?php
+                wp_nav_menu( array(
 
-                'theme_location' => 'header',
-                'container'       => 'nav',
-                'container_class' => 'navbar-collapse collapse',
-                'menu_class'        => 'nav navbar-nav row'
+                  'theme_location' => 'header',
+                  'container'       => 'nav',
+                  'container_class' => 'navbar-collapse collapse',
+                  'menu_class'        => 'nav navbar-nav row'
 
-              ) );
-            ?>
+                ) );
+              ?>
 
-            <a class="navbar-brand" href="/">
-              <img style="max-width:150px;width:100%;" src="<?php bloginfo('stylesheet_directory'); ?>/img/logo.png" alt="Bootstrap to Wordpress">
-            </a>
-          </div><!-- container -->
-        </div><!-- navbar -->
-      </div><!-- navbar-wrapper -->
+              <a class="navbar-brand" href="/">
+                <img style="max-width:150px;width:100%;" src="<?php bloginfo('stylesheet_directory'); ?>/img/logo.png" alt="Bootstrap to Wordpress">
+              </a>
+            </div><!-- container -->
+          </div><!-- navbar -->
+        </div><!-- navbar-wrapper -->
+      </div><!-- .container -->
     </header>

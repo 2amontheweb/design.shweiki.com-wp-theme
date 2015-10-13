@@ -1,5 +1,10 @@
 # Shweiki Design Custom WordPress Theme
 
+### Colors:
+  Dark Blue: #00263a
+  Black:
+  White:
+
 ## Plugins Used:
   • Advance Custom Fields
   • Custom Post Types UI
