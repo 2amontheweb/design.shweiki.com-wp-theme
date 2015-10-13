@@ -48,8 +48,8 @@
       <!-- NAVBAR
       ============ -->
       <div class="navbar-wrapper">
-        <div class="navbar navbar-inverse" role="navigation">
-          <div class="container">
+        <div class="navbar" role="navigation">
+          <div class="container-fluid">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle Navigation</span>

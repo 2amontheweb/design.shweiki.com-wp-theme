@@ -85,36 +85,36 @@ bullet-proof
 
 @font-face {
     font-family: 'Gaspar';
-    src: url('gaspar_regular_italic-webfont.eot');
-    src: url('gaspar_regular_italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('gaspar_regular_italic-webfont.woff2') format('woff2'),
-         url('gaspar_regular_italic-webfont.woff') format('woff'),
-         url('gaspar_regular_italic-webfont.ttf') format('truetype'),
-         url('gaspar_regular_italic-webfont.svg#gasparitalic') format('svg');
+    src: url('../fonts/gaspar/gaspar_regular_italic-webfont.eot');
+    src: url('../fonts/gaspar/gaspar_regular_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gaspar/gaspar_regular_italic-webfont.woff2') format('woff2'),
+         url('../fonts/gaspar/gaspar_regular_italic-webfont.woff') format('woff'),
+         url('../fonts/gaspar/gaspar_regular_italic-webfont.ttf') format('truetype'),
+         url('../fonts/gaspar/gaspar_regular_italic-webfont.svg#gasparitalic') format('svg');
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
   font-family: 'Gaspar';
-  src: url('gaspar_bold-webfont.eot');
-  src: url('gaspar_bold-webfont.eot?#iefix') format('embedded-opentype'),
-  url('gaspar_bold-webfont.woff2') format('woff2'),
-  url('gaspar_bold-webfont.woff') format('woff'),
-  url('gaspar_bold-webfont.ttf') format('truetype'),
-  url('gaspar_bold-webfont.svg#gasparbold') format('svg');
+  src: url('../fonts/gaspar/gaspar_bold-webfont.eot');
+  src: url('../fonts/gaspar/gaspar_bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/gaspar/gaspar_bold-webfont.woff2') format('woff2'),
+  url('../fonts/gaspar/gaspar_bold-webfont.woff') format('woff'),
+  url('../fonts/gaspar/gaspar_bold-webfont.ttf') format('truetype'),
+  url('../fonts/gaspar/gaspar_bold-webfont.svg#gasparbold') format('svg');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gaspar';
-  src: url('gaspar_bold_italic-webfont.eot');
-  src: url('gaspar_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
-  url('gaspar_bold_italic-webfont.woff2') format('woff2'),
-  url('gaspar_bold_italic-webfont.woff') format('woff'),
-  url('gaspar_bold_italic-webfont.ttf') format('truetype'),
-  url('gaspar_bold_italic-webfont.svg#gasparbold_italic') format('svg');
+  src: url('../fonts/gaspar/gaspar_bold_italic-webfont.eot');
+  src: url('../fonts/gaspar/gaspar_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/gaspar/gaspar_bold_italic-webfont.woff2') format('woff2'),
+  url('../fonts/gaspar/gaspar_bold_italic-webfont.woff') format('woff'),
+  url('../fonts/gaspar/gaspar_bold_italic-webfont.ttf') format('truetype'),
+  url('../fonts/gaspar/gaspar_bold_italic-webfont.svg#gasparbold_italic') format('svg');
   font-weight: 600;
   font-style: italic;
 }

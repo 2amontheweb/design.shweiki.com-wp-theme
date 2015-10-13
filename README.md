@@ -59,7 +59,7 @@
 ```
 
 
-#### Search: http://localhost:8888/?s=<query_string>
+#### Search: http://localhost:8888/?s=(query_string)
 ```
   search.php
   template-parts/content-search.php (if have_results())
@@ -68,13 +68,13 @@
 ```
 
 
-#### Page Not Found: http://localhost:8888/<bad_request>
+#### Page Not Found: http://localhost:8888/(bad_request)
 ```
   404.php
 ```
 
 
-#### Archives: http://localhost:8888/<year>/<month>/
+#### Archives: http://localhost:8888/(year)/(month)/
 ```
   archive.php (if have_archives())
   content.php (if have_archives())

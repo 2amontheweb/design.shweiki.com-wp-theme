@@ -4,27 +4,29 @@
  */
 
 get_header(); ?>
-<h1>page-main.php</h1>
+
   <!-- MAIN CONTENT
 ================================================== -->
-<div class="container page">
-  <div class="row" id="primary">
+<div class="page page-main">
+  <div class="container">
+    <div class="row" id="primary">
 
-    <div id="content" class="col-sm-12">
+      <div id="content" class="col-sm-12">
 
-      <section class="main-content">
+        <section class="main-content">
 
-        <?php while ( have_posts() ) : the_post();  ?>
+          <?php while ( have_posts() ) : the_post();  ?>
 
-        <?php the_content(); ?>
+          <?php the_content(); ?>
 
-        <?php endwhile; ?>
+          <?php endwhile; ?>
 
-      </section>
+        </section>
 
-    </div><!-- content -->
+      </div><!-- content -->
 
-  </div><!-- primary -->
+    </div><!-- primary -->
+  </div>
 </div><!-- container -->
 
 <?php get_footer(); ?>

@@ -964,6 +964,11 @@ div[class^="col-"], div[class*=" col-"] {
 /****
  * HEADER
  ****/
+.site-header .navbar {
+  min-height: 200px;
+  padding-top: 75px;
+}
+
 .site-header .navbar-nav.nav.row {
   width: 100%;
 }
@@ -971,23 +976,55 @@ div[class^="col-"], div[class*=" col-"] {
 .site-header .navbar-nav.nav.row > li {
   position: relative;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  /*padding-right: 15px;*/
+  /*padding-left: 15px;*/
 }
+
+.site-header .navbar-nav.nav.row > li > a {
+  font-family: "Gaspar";
+  color: #000099;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.site-header .navbar-nav.nav.row > li:first-child > a,
+.site-header .navbar-nav.nav.row > li:nth-child(2) > a {
+  float: right;
+}
+.navbar>.container-fluid .navbar-brand {
+  margin-left: 0;
+}
+
+.site-header .navbar-brand {
+  position: absolute;
+  top: 10px;
+}
+.site-header .navbar-nav.nav.row > li:first-child {
+  border-right: 1px solid blue;
+}
+.site-header .navbar-nav.nav.row > li:nth-child(2) {
+  border-right: 1px solid blue;
+}
+.site-header .navbar-nav.nav.row > li:nth-child(3) {
+  border-left: 1px solid blue;
+}
+.site-header .navbar-nav.nav.row > li:last-child {
+  border-left: 1px solid blue;
+}
+
 @media (min-width: 768px) {
   .site-header .navbar-nav.nav.row > li:first-child,
   .site-header .navbar-nav.nav.row > li:last-child {
     float: left;
-    width: 25%;
+    width: 31.66666667%;
   }
   .site-header .navbar-nav.nav.row > li:nth-child(2) {
     float: left;
-    width: 16.66666667%;
+    width: 10%;
   }
   .site-header .navbar-nav.nav.row > li:nth-child(3) {
     margin-left: 16.66666667%;
     float: left;
-    width: 16.66666667%;
+    width: 10%;
   }
   .site-header .navbar-nav.nav.row > li:first-child a {
     float: right;
@@ -1001,5 +1038,53 @@ div[class^="col-"], div[class*=" col-"] {
     width: 100%;
     display: block;
     margin: 0 auto;
+  }
+}
+
+/****
+ * FOOTER
+ ****/
+
+.site-footer {
+  padding: 60px 0 60px;
+}
+.site-footer .container {
+  max-width: 969px;
+  margin: 0 auto;
+}
+.site-footer h3 {
+  font-family: "Gaspar";
+  color: #000099;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1em;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.site-footer .section {
+  padding: 5px 25px;
+}
+
+.site-footer .contact-us,
+.site-footer .connect-with-us {
+  border-right: 1px solid blue;
+}
+
+
+/***
+ * page-main
+ ***/
+.page-main {
+  height: 600px;
+}
+@media (max-width: 992px) {
+  .page-main {
+    height: 464px;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-main {
+    height: auto;
   }
 }
