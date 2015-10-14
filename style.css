@@ -1026,10 +1026,9 @@ div[class^="col-"], div[class*=" col-"] {
   .site-header .navbar-nav.nav.row > li:nth-child(3) {
     margin-left: 20%;
   }
-  .site-header .navbar-nav.nav.row > li:first-child > a {
-    padding-right: 25px;
-  }
+  .site-header .navbar-nav.nav.row > li:first-child > a,
   .site-header .navbar-nav.nav.row > li:last-child > a {
+    padding-right: 25px;
     padding-left: 25px;
   }
 }
@@ -1101,7 +1100,7 @@ div[class^="col-"], div[class*=" col-"] {
   padding-top: 20px;
   margin-top: 20px;
 }
-.site-footer h3 {
+.site-footer .section-title {
   font-family: "Gaspar";
   color: #00263a;
   font-weight: bold;
@@ -1206,6 +1205,16 @@ div[class^="col-"], div[class*=" col-"] {
   font-family: "Gaspar";
   font-weight: bold;
   font-size: 2.25em;
+  color: #00263a;
+  padding-bottom: 0;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+.page h3 {
+  font-family: "Gaspar";
+  font-weight: bold;
+  color: #00263a;
+  font-size: 1.75em;
   padding-bottom: 0;
   line-height: 1.4;
   text-transform: uppercase;
@@ -1213,6 +1222,7 @@ div[class^="col-"], div[class*=" col-"] {
 .page h2 {
   font-family: "Avenir";
   font-size: 0.9em;
+  color: #00263a;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.25px;
@@ -1225,6 +1235,29 @@ div[class^="col-"], div[class*=" col-"] {
   font-weight: bold;
   font-size: 0.85em;
   line-height: 1.4;
+}
+.page a {
+  color: #00263a;
+  font-family: "Gaspar";
+  font-weight: bold;
+  letter-spacing: 0.25px;
+}
+.page input[type="submit"] {
+  float:left;
+  width: 30%;
+  padding: 0;
+  height: 40px;
+  font-family: "Gaspar";
+  font-style: italic;
+  text-transform: uppercase;
+  border-radius: 0;
+  border: 0;
+  background: #00263a;
+  color: #fff;
+  box-shadow: 0 0 0;
+}
+.page .fa-pencil {
+  padding-right: 5px;
 }
 
 /***
@@ -1333,8 +1366,14 @@ div[class^="col-"], div[class*=" col-"] {
   padding-right: 30px;
 }
 
-
-
-
+/***
+ * page index
+ ***/
+.page.index .content {
+  padding-right: 30px;
+}
+.page.index .post-details {
+  padding-bottom: 20px;
+}
 
 

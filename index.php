@@ -14,10 +14,10 @@
 
 get_header(); ?>
 
-  <div id="primary" class="page">
+  <div id="primary" class="page index">
     <div class="container">
       <div class="row">
-        <div class="col-sm-8">
+        <div class="col-sm-8 content">
           <main id="main" class="site-main" role="main">
 
             <?php if ( have_posts() ) : ?>

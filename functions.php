@@ -115,7 +115,7 @@ function shweiki_design_widgets_init() {
     'description'   => '',
     'before_widget' => '<div id="%1$s" class="widget %2$s">',
     'after_widget'  => '</div>',
-    'before_title'  => '<h3>',
+    'before_title'  => '<h3 class="section-title">',
     'after_title'   => '</h3>',
   ) );
   register_sidebar( array(
@@ -124,7 +124,7 @@ function shweiki_design_widgets_init() {
     'description'   => '',
     'before_widget' => '<div id="%1$s" class="widget %2$s">',
     'after_widget'  => '</div>',
-    'before_title'  => '<h3>',
+    'before_title'  => '<h3 class="section-title">',
     'after_title'   => '</h3>',
   ) );
   register_sidebar( array(
@@ -133,7 +133,7 @@ function shweiki_design_widgets_init() {
     'description'   => '',
     'before_widget' => '<div id="%1$s" class="widget %2$s">',
     'after_widget'  => '</div>',
-    'before_title'  => '<h3>',
+    'before_title'  => '<h3 class="section-title">',
     'after_title'   => '</h3>',
   ) );
 }

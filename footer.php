@@ -20,13 +20,13 @@
         <div class="footer-wrapper">
           <div class="row">
             <div class="col-sm-4 section footer-left">
-              <h3>Contact Us</h3>
+              <h3 class="section-title">Contact Us</h3>
               <a href="/contact">
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/gmap.png" alt="GMap">
               </a>
             </div><!-- .contact-us -->
             <div class="col-sm-4 section footer-middle">
-              <h3>Connect With Us</h3>
+              <h3 class="section-title">Connect With Us</h3>
               <div class="row">
                 <div class="col-xs-3">
                   <a href="http://www.twitter.com" target="_blank">

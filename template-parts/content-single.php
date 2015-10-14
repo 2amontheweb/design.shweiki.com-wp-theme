@@ -14,7 +14,8 @@
     <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
     <div class="entry-meta">
-      <?php shweiki_design_posted_on(); ?>
+      Posted on <time><?php the_date(); ?></time>
+      <!-- <?#php shweiki_design_posted_on(); ?> -->
     </div><!-- .entry-meta -->
   </header><!-- .entry-header -->
 
@@ -29,6 +30,7 @@
   </div><!-- .entry-content -->
 
   <footer class="entry-footer">
-    <?php shweiki_design_entry_footer(); ?>
+    <?php edit_post_link( 'Edit', '<div><i class="fa fa-pencil"></i>', '</div>' ); ?>
+    <!-- <?#php shweiki_design_entry_footer(); ?> -->
   </footer><!-- .entry-footer -->
 </article><!-- #post-## -->
