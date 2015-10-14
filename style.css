@@ -999,9 +999,6 @@ div[class^="col-"], div[class*=" col-"] {
 .site-header .navbar-nav.nav.row > li:first-child {
   border-right: 1px solid #00263a;
 }
-.site-header .navbar-nav.nav.row > li:first-child > a {
-
-}
 .site-header .navbar-nav.nav.row > li:nth-child(2) {
   border-right: 1px solid #00263a;
 }
@@ -1013,6 +1010,28 @@ div[class^="col-"], div[class*=" col-"] {
 }
 .site-header .navbar-nav.nav.row > li:last-child > a{
 
+}
+
+@media (min-width: 992px) {
+  .site-header .navbar-nav.nav.row > li:first-child,
+  .site-header .navbar-nav.nav.row > li:last-child {
+    float: left;
+    width: 27.5%;
+  }
+  .site-header .navbar-nav.nav.row > li:nth-child(2),
+  .site-header .navbar-nav.nav.row > li:nth-child(3) {
+    float: left;
+    width: 12.5%;
+  }
+  .site-header .navbar-nav.nav.row > li:nth-child(3) {
+    margin-left: 20%;
+  }
+  .site-header .navbar-nav.nav.row > li:first-child > a {
+    padding-right: 25px;
+  }
+  .site-header .navbar-nav.nav.row > li:last-child > a {
+    padding-left: 25px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1034,15 +1053,15 @@ div[class^="col-"], div[class*=" col-"] {
   .site-header .navbar-nav.nav.row > li:first-child,
   .site-header .navbar-nav.nav.row > li:last-child {
     float: left;
-    width: 27.5%;
+    width: 22.5%;
   }
   .site-header .navbar-nav.nav.row > li:nth-child(2),
   .site-header .navbar-nav.nav.row > li:nth-child(3) {
     float: left;
-    width: 12.5%;
+    width: 15%;
   }
   .site-header .navbar-nav.nav.row > li:nth-child(3) {
-    margin-left: 20%;
+    margin-left: 25%;
   }
   .site-header .navbar-nav.nav.row > li:first-child a {
     float: right;
@@ -1180,6 +1199,33 @@ div[class^="col-"], div[class*=" col-"] {
   box-shadow: 0 0 0;
 }
 
+/***
+ * page
+ ***/
+.page h1 {
+  font-family: "Gaspar";
+  font-weight: bold;
+  font-size: 2.25em;
+  padding-bottom: 0;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+.page h2 {
+  font-family: "Avenir";
+  font-size: 0.9em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.25px;
+  border-bottom: 1px solid #e6e7e9;
+  padding-bottom: 2px;
+  margin-bottom: 8px;
+}
+.page p {
+  font-family: "Gaspar";
+  font-weight: bold;
+  font-size: 0.85em;
+  line-height: 1.4;
+}
 
 /***
  * page-main
