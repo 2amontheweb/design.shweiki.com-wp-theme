@@ -58,6 +58,9 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
+                <a class="navbar-brand on-mobile" href="/">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/img/logo-horizontal.png" alt="Bootstrap to Wordpress" class="horizontal">
+                </a>
               </div><!-- navbar-header -->
 
               <?php
@@ -71,8 +74,8 @@
                 ) );
               ?>
 
-              <a class="navbar-brand" href="/">
-                <img style="max-width:150px;width:100%;" src="<?php bloginfo('stylesheet_directory'); ?>/img/logo.png" alt="Bootstrap to Wordpress">
+              <a class="navbar-brand off-mobile" href="/">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/img/logo.png" alt="Bootstrap to Wordpress">
               </a>
             </div><!-- container -->
           </div><!-- navbar -->
