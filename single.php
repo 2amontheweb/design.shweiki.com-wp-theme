@@ -19,8 +19,6 @@ get_header(); ?>
           <?php $post_format = get_post_format() ? get_post_format() : 'single'; ?>
           <?php get_template_part( 'template-parts/content', $post_format ); ?>
 
-          <?php the_post_navigation(); ?>
-
           <?php
             // If comments are open or we have at least one comment, load up the comment template.
             if ( comments_open() || get_comments_number() ) :

@@ -31,26 +31,39 @@ $website_url = get_field('website_url');
     <footer class="entry-footer">
       <div class="row">
         <div class="col-sm-8">
-          <div>
-            <?php echo $twitter_username; ?>
-            <?php echo $facebook_username; ?>
-            <?php echo $pinterest_username; ?>
-            <?php echo $instagram_username; ?>
-            <?php echo $website_url; ?>
+          <?php if ($website_url) : ?>
+            <div class="website-link">
+              <a href="<?php echo $website_url; ?>">View Our Website</a>
+            </div>
+          <?php endif; ?>
+
+          <div class="social-links">
+            <?php if ($twitter_username) : ?>
+              <a href="http://www.twitter.com" target="_blank">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/img/social/twitter.png" alt="Twitter">
+              </a>
+            <?php endif; ?>
+
+            <?php if ($instagram_username) : ?>
+              <a href="http://www.twitter.com" target="_blank">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/img/social/instagram.png" alt="GMap">
+              </a>
+            <?php endif; ?>
+
+            <?php if ($facebook_username) : ?>
+              <a href="http://www.twitter.com" target="_blank">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/img/social/facebook.png" alt="GMap">
+              </a>
+            <?php endif; ?>
+
+            <?php if ($pinterest_username) : ?>
+              <a href="http://www.twitter.com" target="_blank">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/img/social/pinterest.png" alt="GMap">
+              </a>
+            <?php endif; ?>
           </div>
         </div>
       </div>
-      <?#php
-#        edit_post_link(
-#          sprintf(
-#            /* translators: %s: Name of current post */
-#            esc_html__( 'Edit %s', 'bootstrap2wordpress' ),
-#            the_title( '<span class="screen-reader-text">"', '"</span>', false )
-#          ),
-#          '<span class="edit-link">',
-#          '</span>'
-#        );
-#      ?>
     </footer><!-- .entry-footer -->
   </article><!-- #post-## -->
 </div><!-- .content-gallery -->

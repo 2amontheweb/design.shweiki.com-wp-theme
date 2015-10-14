@@ -1079,7 +1079,8 @@ div[class^="col-"], div[class*=" col-"] {
 }
 .site-footer .footer-wrapper {
   border-top: 1px solid #00263a;
-  padding-top: 30px;
+  padding-top: 20px;
+  margin-top: 20px;
 }
 .site-footer h3 {
   font-family: "Gaspar";
@@ -1217,6 +1218,7 @@ div[class^="col-"], div[class*=" col-"] {
   border-top: 1px solid #00263a;
   font-family: "Gaspar";
   font-weight: bold;
+  text-transform: uppercase;
   font-size: 1.25em;
   line-height: 1;
 }
@@ -1258,6 +1260,31 @@ div[class^="col-"], div[class*=" col-"] {
   font-weight: bold;
   font-size: 0.85em;
   padding-bottom: 30px;
+  line-height: 1.4;
+}
+.content-gallery .website-link {
+  float: left;
+  height: 40px;
+  min-width: 250px;
+  background-color: #e6e7e9;
+  color: #00263a;
+  padding: 8px 30px 13px 10px;
+  height: 40px;
+  font-size: 1em;
+  font-family: "Gaspar";
+  font-weight: bold;
+}
+.content-gallery .website-link a {
+  color: #00263a;
+}
+.content-gallery .social-links {
+  float: right;
+}
+.content-gallery .social-links img {
+  max-width: 27.5px;
+}
+.content-gallery .entry-footer .col-sm-8 {
+  padding-right: 30px;
 }
 
 
