@@ -29,22 +29,22 @@
               <h3 class="section-title">Connect With Us</h3>
               <div class="row">
                 <div class="col-xs-3">
-                  <a href="http://www.twitter.com" target="_blank">
+                  <a href="https://twitter.com/shweikimedia" target="_blank">
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/img/social/twitter.png" alt="GMap">
                   </a>
                 </div>
                 <div class="col-xs-3">
-                  <a href="http://www.twitter.com" target="_blank">
+                  <a href="https://instagram.com/shweikimedia/" target="_blank">
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/img/social/instagram.png" alt="GMap">
                   </a>
                 </div>
                 <div class="col-xs-3">
-                  <a href="http://www.twitter.com" target="_blank">
+                  <a href="https://www.facebook.com/shweikimedia" target="_blank">
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/img/social/facebook.png" alt="GMap">
                   </a>
                 </div>
                 <div class="col-xs-3">
-                  <a href="http://www.twitter.com" target="_blank">
+                  <a href="https://www.pinterest.com/shweikimedia/" target="_blank">
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/img/social/pinterest.png" alt="GMap">
                   </a>
                 </div>
