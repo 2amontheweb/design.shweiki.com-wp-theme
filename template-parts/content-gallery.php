@@ -39,25 +39,25 @@ $website_url = get_field('website_url');
 
           <div class="social-links">
             <?php if ($twitter_username) : ?>
-              <a href="http://www.twitter.com" target="_blank">
+              <a href="https://twitter.com/<?php echo $twitter_username; ?>" target="_blank">
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/social/twitter.png" alt="Twitter">
               </a>
             <?php endif; ?>
 
             <?php if ($instagram_username) : ?>
-              <a href="http://www.twitter.com" target="_blank">
+              <a href="https://instagram.com/<?php echo $instagram_username; ?>" target="_blank">
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/social/instagram.png" alt="GMap">
               </a>
             <?php endif; ?>
 
             <?php if ($facebook_username) : ?>
-              <a href="http://www.twitter.com" target="_blank">
+              <a href="https://www.facebook.com/<?php echo $facebook_username; ?>" target="_blank">
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/social/facebook.png" alt="GMap">
               </a>
             <?php endif; ?>
 
             <?php if ($pinterest_username) : ?>
-              <a href="http://www.twitter.com" target="_blank">
+              <a href="https://www.pinterest.com/<?php echo $pinterest_username; ?>" target="_blank">
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/social/pinterest.png" alt="GMap">
               </a>
             <?php endif; ?>
