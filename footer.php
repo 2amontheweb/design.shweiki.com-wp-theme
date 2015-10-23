@@ -20,10 +20,7 @@
         <div class="footer-wrapper">
           <div class="row">
             <div class="col-sm-4 section footer-left">
-              <h3 class="section-title">Contact Us</h3>
-              <a href="/contact">
-                <img src="<?php bloginfo('stylesheet_directory'); ?>/img/gmap.png" alt="GMap">
-              </a>
+              <?php dynamic_sidebar( 'footer-left' ); ?>
             </div><!-- .contact-us -->
             <div class="col-sm-4 section footer-middle">
               <h3 class="section-title">Connect With Us</h3>

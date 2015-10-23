@@ -119,15 +119,6 @@ function shweiki_design_widgets_init() {
     'after_title'   => '</h3>',
   ) );
   register_sidebar( array(
-    'name'          => esc_html__( 'Footer Middle', 'shweiki-design' ),
-    'id'            => 'footer-middle',
-    'description'   => '',
-    'before_widget' => '<div id="%1$s" class="widget %2$s">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h3 class="section-title">',
-    'after_title'   => '</h3>',
-  ) );
-  register_sidebar( array(
     'name'          => esc_html__( 'Footer Right', 'shweiki-design' ),
     'id'            => 'footer-right',
     'description'   => '',
@@ -179,3 +170,13 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+function custom_excerpt_length( $length ) {
+  return 20;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+function new_excerpt_more( $more ) {
+  return '...';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
