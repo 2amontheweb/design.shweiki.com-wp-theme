@@ -1,5 +1,5 @@
 /*
-Theme Name: Shweiki Design 0.0.3
+Theme Name: Shweiki Design 0.0.4
 Theme URI: http://underscores.me/
 Author: Jimmy Pocock
 Author URI: http://jimmypocock.com
@@ -1222,6 +1222,8 @@ div[class^="col-"], div[class*=" col-"] {
   color: #fff;
   box-shadow: 0 0 0;
 }
+
+
 @media (max-width: 768px) {
   .site-footer {
     padding-bottom: 0;
@@ -1450,5 +1452,88 @@ div[class^="col-"], div[class*=" col-"] {
   padding-right: 30px;
 }
 .page.index .post-details {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.page.index .site-main article {
+  border-bottom: 1px solid #e6e7e9;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+}
+.page.index .site-main article:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+.page.index .site-main img {
+  max-width: 100%;
+  width: 100%;
+  border-bottom: 1px solid #00263a;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.page.index .site-main .entry-title-container {
+  min-height: 20px;
+}
+.page.index .site-main .entry-title-container .edit-link {
+  float: right;
+}
+
+.page.index .site-main .entry-title {
+  color: #00263a;
+  padding-bottom: 0;
+  line-height: 1.4;
+  text-transform: uppercase;
+  float: left;
+  font-family: "Gaspar";
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  line-height: 1;
+}
+
+/***
+ * content-single
+ ***/
+.page.single .content {
+  padding-right: 30px;
+}
+.page.single .content img {
+  max-width: 100%;
+  width: 100%;
+  border-bottom: 1px solid #00263a;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.page.single .content .entry-title-container {
+  min-height: 20px;
+}
+.page.single .content .entry-title-container .edit-link {
+  float: right;
+}
+
+.page.single .content .entry-title {
+  color: #00263a;
+  padding-bottom: 0;
+  line-height: 1.4;
+  text-transform: uppercase;
+  float: left;
+  font-family: "Gaspar";
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  line-height: 1;
+}
+
+
+/***
+ * Contact Form 7 Widget
+ ***/
+.widget_custom_cf7 {
+  border: 2px solid #00263a;
+  background: #e6e7e9;
+  padding: 15px;
+}
+.widget_custom_cf7 input {
+  width: 100%;
 }

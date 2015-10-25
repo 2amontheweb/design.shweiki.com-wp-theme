@@ -13,22 +13,20 @@
   <header class="entry-header">
     <?php if ( has_post_thumbnail() ) : ?>
       <div class="post-image">
-        <?php the_post_thumbnail(); ?>
+        <a href="<?php the_permalink(); ?>" rel="bookmark">
+          <?php the_post_thumbnail(); ?>
+        </a>
       </div><!-- post-image -->
     <?php endif; ?>
-    <?php the_title( sprintf( '<h3 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h3>' ); ?>
+    <div class="entry-title-container">
+      <?php the_title( sprintf( '<h3 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h3>' ); ?>
+      <?php edit_post_link( 'Edit', '<div class="edit-link"><i class="fa fa-pencil"></i>', '</div>' ); ?>
+    </div>
 
     <?php if ( 'post' === get_post_type() ) : ?>
 
       <div class="post-details">
         <i class="fa fa-clock-o"></i> <time><?php the_date(); ?></time>
-
-        <!-- <div class="post-comments-badge">
-          <a href="<?php comments_link(); ?>"><i class="fa fa-comments"></i> <?#php comments_number(0, 1, '%'); ?></a>
-        </div>-->
-
-        <?php edit_post_link( 'Edit', '<div><i class="fa fa-pencil"></i>', '</div>' ); ?>
-
       </div><!-- post-details -->
 
     <?php endif; ?>

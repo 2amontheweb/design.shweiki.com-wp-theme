@@ -75,7 +75,7 @@
               ?>
 
               <a class="navbar-brand off-mobile" href="/">
-                <img src="<?php bloginfo('stylesheet_directory'); ?>/img/logo.png" alt="Bootstrap to Wordpress">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/img/logo.jpg" alt="Bootstrap to Wordpress">
               </a>
             </div><!-- container -->
           </div><!-- navbar -->
