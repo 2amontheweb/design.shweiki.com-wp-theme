@@ -490,6 +490,10 @@ textarea {
   padding-left: 3px;
   width: 100%;
 }
+textarea#comment {
+  max-height: 200px;
+  height: 100px;
+}
 
 /*--------------------------------------------------------------
 # Navigation
@@ -1390,7 +1394,7 @@ div[class^="col-"], div[class*=" col-"] {
 /***
  * content-gallery
  ***/
-@media screen and (min-width: 768px;) {
+@media screen and (min-width: 768px) {
   .content-gallery .content {
     padding-right: 30px;
   }
@@ -1437,13 +1441,13 @@ div[class^="col-"], div[class*=" col-"] {
 .content-gallery .social-links img {
   max-width: 27.5px;
 }
-@media screen and (min-width: 768px;) {
+@media screen and (min-width: 768px) {
   .content-gallery .entry-footer .col-sm-8 {
     padding-right: 30px;
   }
 }
 
-@media screen and (max-width: 767px;) {
+@media screen and (max-width: 767px) {
   .slider {
     float: left;
   }
@@ -1452,7 +1456,7 @@ div[class^="col-"], div[class*=" col-"] {
 /***
  * page index
  ***/
-@media screen and (min-width: 768px;) {
+@media screen and (min-width: 768px) {
   .page.index .content {
     padding-right: 30px;
   }
@@ -1501,7 +1505,7 @@ div[class^="col-"], div[class*=" col-"] {
 /***
  * content-single
  ***/
-@media screen and (min-width: 768px;) {
+@media screen and (min-width: 768px) {
   .page.single .content {
     padding-right: 30px;
   }
