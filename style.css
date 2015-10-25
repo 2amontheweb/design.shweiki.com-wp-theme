@@ -1390,8 +1390,10 @@ div[class^="col-"], div[class*=" col-"] {
 /***
  * content-gallery
  ***/
-.content-gallery .content {
-  padding-right: 30px;
+@media screen and (min-width: 768px;) {
+  .content-gallery .content {
+    padding-right: 30px;
+  }
 }
 
 .content-gallery h2,
@@ -1435,8 +1437,10 @@ div[class^="col-"], div[class*=" col-"] {
 .content-gallery .social-links img {
   max-width: 27.5px;
 }
-.content-gallery .entry-footer .col-sm-8 {
-  padding-right: 30px;
+@media screen and (min-width: 768px;) {
+  .content-gallery .entry-footer .col-sm-8 {
+    padding-right: 30px;
+  }
 }
 
 @media screen and (max-width: 767px;) {
@@ -1448,8 +1452,10 @@ div[class^="col-"], div[class*=" col-"] {
 /***
  * page index
  ***/
-.page.index .content {
-  padding-right: 30px;
+@media screen and (min-width: 768px;) {
+  .page.index .content {
+    padding-right: 30px;
+  }
 }
 .page.index .post-details {
   padding-bottom: 10px;
@@ -1495,8 +1501,10 @@ div[class^="col-"], div[class*=" col-"] {
 /***
  * content-single
  ***/
-.page.single .content {
-  padding-right: 30px;
+@media screen and (min-width: 768px;) {
+  .page.single .content {
+    padding-right: 30px;
+  }
 }
 .page.single .content img {
   max-width: 100%;
